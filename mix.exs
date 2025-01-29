@@ -58,7 +58,7 @@ defmodule Stripe.Mixfile do
       {:jason, "~> 1.1"},
       {:telemetry, ">= 0.4.0"},
       {:uri_query, "~> 0.2.0"},
-      {:plug, "~> 1.14", optional: true},
+      {:plug, ">= 1.0.0", optional: true},
       # Non-production dependencies
       {:inch_ex, ">= 0.0.0", only: [:dev, :test]},
       {:mox, ">= 0.0.0", only: :test},
