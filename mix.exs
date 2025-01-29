@@ -56,7 +56,7 @@ defmodule Stripe.Mixfile do
     [
       {:hackney, "~> 1.18"},
       {:jason, "~> 1.1"},
-      {:telemetry, "~> 1.1"},
+      {:telemetry, ">= 0.4.0"},
       {:uri_query, "~> 0.2.0"},
       {:plug, "~> 1.14", optional: true},
       # Non-production dependencies
